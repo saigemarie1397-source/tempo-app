@@ -1,9 +1,13 @@
-TEMPO — Personal iPhone planner
+TEMPO 2.0 — GitHub Pages update
 
-1. Unzip this folder.
-2. Upload all four files (index.html, manifest.webmanifest, icon.svg, sw.js) together to a static HTTPS host such as GitHub Pages.
-3. Open the resulting HTTPS URL in Safari on your iPhone.
-4. Tap Share > Add to Home Screen > Add.
-5. Open Tempo from your home screen. Tasks stay in that browser's local storage. Export backups regularly under Tasks > Preferences & backup.
+1. In your existing tempo-app GitHub repository, upload these five files (index.html, app.js, style.css, sw.js, manifest.webmanifest, icon.svg) to the repository ROOT. Replace the old versions when prompted. Do not upload the ZIP itself.
+2. Wait for GitHub Pages to redeploy, then open your existing Tempo website. On iPhone, close and reopen the home-screen app; if the old version persists, reopen Safari and reload the site while online.
+3. Your original Tempo 1.0 data is automatically copied to v2 storage the first time v2 runs in the SAME browser/site storage context. Export a backup from v1 first, if possible. Home-screen apps may not share storage with Safari.
+4. After one successful online visit, offline app assets should be cached. Test by enabling airplane mode and reopening Tempo.
+5. Web apps cannot guarantee notifications when closed. Use iPhone alarms for important transitions until a native version exists.
 
-Limitations: No background push notifications, no account sync, no guaranteed permanent local storage. Focus prompts are visible while the app is open; iOS may suspend timers in the background. The timer catches up when the app resumes. This is a personal productivity tool, not a medical treatment.
+Tips:
+- Schedule: add blocks and set repetition. Use Copy to duplicate one day, or Repeat this week to convert one-time blocks in that week to recurring weekly blocks.
+- Tasks: unfinished flexible tasks automatically show on later days, but keep their original due date.
+- Plan: split a time goal into openings outside fixed blocks. The sessions are created as fixed tasks.
+- Export a backup regularly. All data is local to this browser/app installation.

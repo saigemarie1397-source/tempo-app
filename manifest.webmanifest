@@ -1,1 +1,1 @@
-{"name":"Tempo — Personal Planner","short_name":"Tempo","description":"A calm daily planner with focus timers and flexible tasks","start_url":"./index.html","display":"standalone","background_color":"#f3f7f5","theme_color":"#dce9e7","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{"name":"Tempo — Your Daily Rhythm","short_name":"Tempo","start_url":"./","scope":"./","display":"standalone","background_color":"#f2f7f5","theme_color":"#e5efec","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
